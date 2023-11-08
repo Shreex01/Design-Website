@@ -1,0 +1,126 @@
+body{background-color: black;
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;}
+
+.main{
+    color: white;
+    margin-bottom: 50px;
+}
+
+h1{ font-size: 3rem;}
+.design{color: crimson;}
+.heading{
+    margin-bottom:10px;
+    font-size: 1.5rem;
+}
+.h2-wrapper{
+    clear: both;
+    margin-top: 10px;}
+.responsive{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.tile-image{ 
+    flex-shrink: 0;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 60px;
+}
+
+.card{ width: 45%;}
+
+.left{
+    float: left;
+    padding-right: 10px;
+}
+
+.right{
+    float: right;
+}
+
+.pricing{ 
+    margin-bottom: 10px;
+    clear: both;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Pricing-container{
+    display:flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+.pricing-plan{
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgb(62, 63, 63);
+    border-radius: 5px;
+    text-align: center;
+}
+.plan-title{
+    color: crimson;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.plan-price{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.plan-features{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+.plan-features li{ margin-bottom: 15px;}
+
+.plan-button{
+    padding: 10px;
+    background-color: aqua;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+}
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
+
+@media (max-width:680px)
+{
+    h1{font-size: 3.5rem;
+        text-align: center;}
+    
+    .card{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+        }
+
+    .card img{
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+    .Pricing-container {
+        flex-direction: column;
+        height: 50%;
+      }
+
+}
